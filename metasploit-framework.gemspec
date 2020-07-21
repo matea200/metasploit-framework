@@ -46,6 +46,8 @@ Gem::Specification.new do |spec|
 
   spec.required_ruby_version = '>= 2.5'
 
+  spec.add_runtime_dependency 'pry'
+
   # Database support
   spec.add_runtime_dependency 'activerecord', *Metasploit::Framework::RailsVersionConstraint::RAILS_VERSION
   # Need 3+ for ActiveSupport::Concern
